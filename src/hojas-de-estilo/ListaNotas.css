@@ -1,0 +1,4 @@
+ul {
+    list-style-type: none; /* Quita las viñetas */
+    padding-left: 0; /* Elimina el espacio del margen */
+}

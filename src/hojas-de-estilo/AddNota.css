@@ -1,0 +1,38 @@
+.contenedor_nota {
+    /* Puedes cambiar a 'row' si quieres que estén en la misma fila */
+    gap: 2px; /* Espacio entre el textarea y el button */
+    width: 272px;
+    height: 253px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    border: 1px solid #63A86F;
+    border-radius: 5px;
+    background-color: #96FFAA;
+  }
+  
+  textarea {
+    width: 270px;
+    height: 250px; /* Puedes ajustar la altura*/
+    box-sizing: border-box;
+    background-color:#96FFAA;
+    resize: none; /* Opcional, evita que el textarea se redimensione */
+    border-radius: 5px;
+  }
+  
+  button {
+    align-self: flex-end; /* Opcional, para alinear el botón a la derecha */
+    padding: 10px 20px;
+    background-color: #63A86F;
+    color: #96FFAA;
+    border: 1px solid #63A86F; 
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #63A86F;
+    color:#96FFAA;
+    border: 1px solid #96FFAA;
+  } 
+  
